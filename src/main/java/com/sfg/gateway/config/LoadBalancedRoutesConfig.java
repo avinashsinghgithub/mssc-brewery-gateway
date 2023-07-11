@@ -25,7 +25,7 @@ public class LoadBalancedRoutesConfig {
                         .uri("lb://beer-inventory-service")
                         .id("beer-inventory-service"))
                 .route(r -> r.path("/inventory-failover/**")
-                        .uri("lb:/inventory-failover")
+                        .uri("lb://inventory-failover")
                         .id("inventory-failover-service"))
                 .build();
     }
