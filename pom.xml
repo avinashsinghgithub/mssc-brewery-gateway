@@ -9,7 +9,7 @@
     </parent>
     <groupId>com.github.sfg-beer-works</groupId>
     <artifactId>mssc-brewery-gateway</artifactId>
-    <version>1.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <name>mssc-brewery-gateway</name>
     <description>Brewery Gatewqy</description>
 
